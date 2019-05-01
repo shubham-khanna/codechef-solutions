@@ -25,7 +25,7 @@ int main()
         {
             for(int j=31;j>=0;j--)    //loop through all the digits of 32 bit number
             {
-                if(a[i]&(1<<j))       //if AND operation of a[i] and 2^j is 1, eg. a[i] = 4 and 1<<2 = 4 then 4 & 4 = 1   (also 5 & 4=1) 
+                if(a[i]&(1<<j))       //if AND operation of a[i] and 2^j is 1, eg. a[i] = 4 and 1<<2 = 4 then 4 & 4 = 4 (also 5 & 4 = 4) 
                     lol[j]++;          //increment value of array lol
             }
         }
